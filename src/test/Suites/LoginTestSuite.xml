@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="AutomationFramework23"
+       annotations="JDK" parallel="tests">
+
+    <test name="LoginSuitePOM">
+        <classes>
+            <class name="com.soucedemo.SuccessfulLogin"/>
+        </classes>
+    </test>
+
+    <test name="Login Suite">
+        <classes>
+            <class name="testsPOM.LoginTest"/>
+        </classes>
+    </test>
+
+
+</suite>
